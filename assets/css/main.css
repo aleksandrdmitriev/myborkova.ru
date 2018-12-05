@@ -2011,11 +2011,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background: #f3f3f3 url("images/overlay.png");
+			/* background: #f3f3f3 url("images/overlay.png"); */
+			background: #a8b2b3 url("images/overlay.png");
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				/* background: #f3f3f3 url("images/overlay.png"); */
+			background: #a8b2b3 url("images/overlay.png");
 				color: #484d55;
 			}
 
@@ -2246,7 +2248,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			color: #863522;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
