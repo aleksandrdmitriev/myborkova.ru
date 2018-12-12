@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900&subset=cyrillic');
 
 /*
 	Escape Velocity by HTML5 UP
@@ -1723,7 +1723,7 @@ input, select, textarea {
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: #863522 url("images/overlay.png");
+			background: #e97770 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1987,13 +1987,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #9d7f67 url("images/overlay.png");
+			background: #a8b2b3 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #9d7f67 url("images/overlay.png");
+				background: #a8b2b3 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2064,7 +2064,7 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 35em;
+			height: 42em;
 		}
 
 /* Logo */
@@ -2073,12 +2073,11 @@ input, select, textarea {
 		width: 100%;
 		text-align: center;
 		position: relative;
-		top: 1.5em;
+		top: 1.25em;
 	}
 
 		#logo h1 {
-			font-weight: 900;
-			text-transform: uppercase;
+			font-weight: 700;
 			color: #fff;
 			font-size: 2em;
 			letter-spacing: 0.25em;
@@ -2087,13 +2086,16 @@ input, select, textarea {
 		#logo p {
 			color: #eee;
 			color: rgba(255, 255, 255, 0.5);
-			text-transform: uppercase;
 			margin: 1.25em 0 0 0;
 			display: block;
 			letter-spacing: 0.2em;
 			font-size: 0.9em;
 		}
-
+	
+	.photo-round {
+		border-radius: 50%;
+		margin: 1.25em;
+	}
 /* Nav */
 
 	#nav {
@@ -2128,7 +2130,7 @@ input, select, textarea {
 					color: rgba(255, 255, 255, 0.75);
 					text-transform: uppercase;
 					text-decoration: none;
-					font-size: 0.7em;
+					font-size: 0.9em;
 					letter-spacing: 0.25em;
 					height: 5em;
 					line-height: 5em;
