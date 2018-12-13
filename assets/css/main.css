@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,400i,700,900&subset=cyrillic');
 
 /*
 	Escape Velocity by HTML5 UP
@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Montserrat Alternates', sans-serif;
 		font-weight: 400;
 		color: #919499;
 		font-size: 14pt;
@@ -1639,7 +1639,7 @@ input, select, textarea {
 		font-weight: 700;
 		letter-spacing: 0.25em;
 		text-decoration: none;
-		border-radius: 0.35em;
+		border-radius: 1em;
 		border: 0;
 		outline: 0;
 		cursor: pointer;
@@ -2079,7 +2079,7 @@ input, select, textarea {
 		#logo h1 {
 			font-weight: 700;
 			color: #fff;
-			font-size: 2em;
+			font-size: 2.5em;
 			letter-spacing: 0.25em;
 		}
 
@@ -2089,7 +2089,7 @@ input, select, textarea {
 			margin: 1.25em 0 0 0;
 			display: block;
 			letter-spacing: 0.2em;
-			font-size: 0.9em;
+			font-size: 1.1em;
 		}
 	
 	.photo-round {
@@ -2109,7 +2109,7 @@ input, select, textarea {
 
 		#nav > ul {
 			display: inline-block;
-			border-radius: 0.35em;
+			border-radius: 1em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 			padding: 0 1.5em 0 1.5em;
 		}
@@ -2210,15 +2210,8 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 		}
 
-		#intro p.style2 {
-			font-weight: 700;
-			color: #fff;
-			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-			font-size: 2.75em;
-			letter-spacing: 0.075em;
-			line-height: 1.35em;
-			padding: 1em 0 1em 0;
+		#intro img.style2 {
+			border-radius: 1em;
 			margin-bottom: 1em;
 		}
 
