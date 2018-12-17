@@ -1453,7 +1453,6 @@ input, select, textarea {
 
 	header.style1 {
 		text-align: center;
-		padding: 3em 0 3em 0;
 	}
 
 		header.style1 h2 {
@@ -1466,8 +1465,7 @@ input, select, textarea {
 		header.style1 p {
 			color: #b1b4b9;
 			display: block;
-			margin: 1.15em 0 0 0;
-			font-size: 1.3em;
+			font-size: 1.5em;
 			letter-spacing: 0.075em;
 			line-height: 1.5em;
 		}
@@ -1650,6 +1648,29 @@ input, select, textarea {
 		line-height: 4em;
 	}
 
+	small-button,
+	.small-button {
+		-moz-transition: all .25s ease-in-out;
+		-webkit-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+		display: inline-block;
+		background: #444;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 0.25em;
+		text-decoration: none;
+		border-radius: 1em;
+		border: 0;
+		outline: 0;
+		cursor: pointer;
+		padding: 0 0.5em 0 0.5em;
+		font-size: 0.5em;
+		min-width: 7em;
+		height: 4em;
+		line-height: 4em;
+	}
+
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -1665,6 +1686,12 @@ input, select, textarea {
 		.button.large {
 			font-size: 1em;
 			min-width: 14em;
+		}
+
+		button.small,
+		.button.imp-small {
+			font-size: 0.5em;
+			min-width: 7em;
 		}
 
 		input[type="button"].style1,
@@ -1940,7 +1967,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
-		padding: 6em 0 9em 0;
+		padding: 4em 0 7em 0;
 	}
 
 		.wrapper .title {
@@ -2229,7 +2256,7 @@ input, select, textarea {
 /* Features */
 
 	#features header.style1 {
-		padding-bottom: 5em;
+		padding-bottom: 1em;
 	}
 
 	#features ul.actions {
