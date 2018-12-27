@@ -1928,14 +1928,21 @@ input, select, textarea {
 			content: url(images/icon-family.png);
 		}
 		
-		.feature-baby:before {
-			content: url(images/icon-baby.png);
+		.feature-studio:before {
+			content: url(images/icon-studio.png);
 		}
 		 
 		.feature-pregnant:before {
 			content: url(images/icon-pregnant.png);
+		}
+		
+		.feature-book:before {
+			content: url(images/icon-book.png);
+		}
+		 
+		.feature-baptism:before {
+			content: url(images/icon-baptism.png);
  		}
-	
 
 /* Box */
 
