@@ -1942,8 +1942,11 @@ input, select, textarea {
 		 
 		.feature-baptism:before {
 			content: url(images/icon-baptism.png);
+		 }
+		 
+		.feature-phone:before {
+			content: url(images/icon-phone.png);
  		}
-
 /* Box */
 
 	.box header {
