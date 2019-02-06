@@ -136,7 +136,7 @@ input, select, textarea {
 		-webkit-transition: color .25s ease-in-out;
 		-ms-transition: color .25s ease-in-out;
 		transition: color .25s ease-in-out;
-		text-decoration: underline;
+		text-decoration: none;
 		color: #717479;
 	}
 
@@ -192,6 +192,11 @@ input, select, textarea {
 
 	p, ul, ol, dl, table, blockquote, form {
 		margin-bottom: 2em;
+	}
+
+	.sidebar-features {
+		display: flex;
+		flex-direction: column;
 	}
 
 /* Container */
@@ -1618,10 +1623,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.image.left {
+		/* .image.left {
 			float: left;
 			margin: 0 2em 2em 0;
-		}
+		} */
 
 		.image.centered {
 			display: block;
@@ -1808,8 +1813,8 @@ input, select, textarea {
 
 			ul.style2 li {
 				border-top: solid 1px #eee;
-				padding: 1.5em 0 0 0;
-				margin: 1.5em 0 0 0;
+				padding: 1em 0 0 0;
+				margin: 1em 0 0 0;
 			}
 
 				ul.style2 li:first-child {
@@ -1986,21 +1991,25 @@ input, select, textarea {
 	}
 
 	.box h3 {
-		margin: 0 0 0.5em 0;
+		/* margin: 0 0 0.5em 0; */
 		font-size: 1em;
 		font-weight: 600;
 		letter-spacing: 0.05em;
+		width: 15em;
 	}
 
 	.box.post-excerpt .image.left {
-		position: relative;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+			/* position: relative;
 		top: 0.5em;
-		width: 5em;
+		width: 5em; */
 	}
 
-	.box.post-excerpt h3, .box.post-excerpt p {
-		margin-left: 7em;
-	}
+	/* .box.post-excerpt h3, .box.post-excerpt p {
+		margin-left: 2em;
+	} */
 
 /* Wrapper */
 
