@@ -2921,7 +2921,9 @@ input, select, textarea {
 				width: 100%;
 				font-size: 1em;
 				max-width: 30em;
+				max-height: 10em;
 				margin: 0 auto;
+				line-height: 2em;
 			}
 
 		/* Actions */
@@ -2993,7 +2995,7 @@ input, select, textarea {
 			}
 
 				.homepage #header {
-					height: 20em;
+					height: 35em;
 				}
 
 		/* Logo */
@@ -3002,6 +3004,7 @@ input, select, textarea {
 				text-align: center;
 				padding-left: 2em;
 				padding-right: 2em;
+				/* padding-top: 7em; */
 			}
 
 				#logo h1 {
@@ -3016,12 +3019,16 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
+				.photo-round {
+					width: 200px;
+				}
+
 		/* Intro */
 
 			#intro {
 				text-align: center;
-				padding-right: 2em;
-				padding-left: 2em;
+				padding-right: 0;
+				padding-left: 0;
 				padding-bottom: 5em;
 				margin: 0 auto;
 			}
