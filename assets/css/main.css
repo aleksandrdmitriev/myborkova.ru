@@ -1225,6 +1225,10 @@ input, select, textarea {
 				box-sizing: border-box;
 				align-items: stretch;
 			}
+				/* .feature-list svg {
+					display: none;
+
+				} */
 
 				.row > * {
 					box-sizing: border-box;
@@ -1415,7 +1419,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 30px 0 0 30px;
+						padding: 10px 0 0 30px;
 					}
 
 					.row.gtr-uniform {
@@ -1913,7 +1917,7 @@ input, select, textarea {
 		}
 
 		.feature-list a div.description {
-			flex-basis: 550px;
+			flex-basis: 80%;
 		}
 
 		.feature-list p {
