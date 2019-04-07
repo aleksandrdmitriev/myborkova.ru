@@ -2935,7 +2935,7 @@ input, select, textarea {
 				max-width: 30em;
 				max-height: 10em;
 				margin: 0 auto;
-				line-height: 2em;
+				/* line-height: 2em; */
 			}
 
 		/* Actions */
