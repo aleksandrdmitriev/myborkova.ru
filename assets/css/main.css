@@ -1917,7 +1917,7 @@ input, select, textarea {
 		}
 
 		.feature-list a div.description {
-			flex-basis: 80%;
+			flex-basis: 85%;
 		}
 
 		.feature-list p {
